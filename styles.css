@@ -1,0 +1,206 @@
+body, html {
+  height: 100%;
+  overflow: auto;
+  background-image: url("https://previews.123rf.com/images/stockbroker/stockbroker1507/stockbroker150701274/42119340-multi-generation-african-american-family-relaxing-in-park.jpg");
+  
+  /*center scale the image */
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow-x:hidden; 
+   overflow-y: auto;
+   z-index: -3;
+   background-color: rgba(0, 0, 0, 0.5);
+   font-size: 30px;
+  
+ }
+ #reunited{
+   border:0.1em solid white;
+   background-color:#7D9DA6;
+  padding-left:0px; 
+  padding-top:5px;
+  padding-bottom:5px ;
+  padding-right:0px ;
+   
+ }
+    
+  
+  nav{
+  width:auto;
+  margin:0 auto;
+  margin-right:0px;
+  font-size: 20px;
+  color:white;
+}
+nav>ul>li>a{
+  padding:18px;
+  margin-right:0;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:lightblue;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) insert 0 0 1px rgba(255, 255, 255, 0.);
+  background:rgb(183, 110,121, 0.6);
+  color: maroon;
+}
+
+nav>ul{
+  text-align:right;
+}
+ul>li{
+	display: inline-block;
+}
+ul>li>a:hover{
+  
+  background-color: rgb(255,223,0,0.7);
+}
+h1{
+	font-size: 50px;
+	text-align: center; 
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+.card>img{
+    
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
+}
+h1, h2, h3 {
+  text-align: center;
+  /*color:rgb(28, 120, 150);*/
+  color:maroon;
+}
+h1{
+  font-family: 'Merriweather', serif;
+}
+h2{
+  font-family: 'Merriweather', serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+h3{
+  font-family: 'Merriweather', serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#aboutparagraph{
+  border: 0.1px solid white;
+  /*background-color: #7D9DA6;*/
+  justify-content: justify;
+  background-color: #7D9DA6;
+  opacity:0.9;
+  font-family: 'Hind Madurai', sans-serif;
+  padding-bottom:45px ;
+
+}
+
+#aboutparagraph > #woman{
+  float: left;
+  padding-left:20px; 
+  padding-top:20px;
+  padding-bottom:45px ;
+  padding-right:15px ;
+
+}
+#missingpeople{
+  border: 0.1px solid white;
+  padding-top: 20px;
+  background-color: #7D9DA6;
+  opacity:0.9;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  
+ 
+
+}
+#donate{
+  border: 0.1px solid white;
+  background-color: #7D9DA6;
+  opacity:0.9;
+  text-align: center;
+  justify-content: center;
+   padding-left:20px; 
+  padding-top:20px;
+  padding-bottom:45px ;
+  padding-right:15px ;
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+
+}
+#waysofdonation{
+  
+ 
+}
+#helpsteps {
+
+  border: 0.1px solid white;
+  background-color: #7D9DA6;
+  opacity:0.9;
+  text-align:center;
+  padding-top:30px;
+  padding-bottom:45px ;
+  /*margin-left:100px;*/
+  /*margin-right:100px;*/
+  /* padding-left:20px; */
+  /*padding-top:20px;*/
+  /*padding-bottom:45px ;*/
+  /*padding-right:15px ;*/
+  font-family: 'Hind Madurai', sans-serif;
+}
+#helpsteps>ul{
+  text-align: center;
+  font-family: 'Hind Madurai', sans-serif;
+}
+#lovedone{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+iframe{
+  
+  margin-left: 45px;
+}
+#contacts {
+  text-align: center;
+  color: maroon;
+  font-size: 45px;
+  padding-top:20px;
+}
+.mapouter{
+
+float: right; 
+}
